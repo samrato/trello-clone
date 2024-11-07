@@ -18,7 +18,7 @@ function NavBar() {
      <div className="flex flex-row items-center justify-end w-full md:w-1/2 space-x-3 "> 
      <div className="bg-blue-400 p-1 rounded-sm hover:cursor-pointer hover:pl-5 transition-all duration-200 ease-in-out hover:bg-pink-700 ">
      <IoHomeSharp />
-         <span>Home</span></div>
+         <span>Home</span> </div>
      <div className="bg-blue-400 p-1 rounded-sm hover:cursor-pointer hover:px-5 transition-all duration-200 ease-in-out hover:bg-pink-700"> Show Menu</div>
      </div>
     </header>
