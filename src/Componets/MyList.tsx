@@ -1,9 +1,13 @@
 import React from 'react'
+import { Lists } from '../Constants/Type'
 
-function MyList() {
+function MyList(content:Lists) {
+    const Fast =content[0];
   return (
     <div>
-       <div className="flex-1 bg-white text-gray-800 flex-col"> hello</div>
+       <div className="flex-1  text-gray-800 flex-wrap justify-start"> 
+        <div className="bg-white text-black">{Fast.Title}</div>
+       </div>
     </div>
   )
 }
