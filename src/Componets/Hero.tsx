@@ -25,7 +25,7 @@ function Hero() {
     
     console.log(list)
   return (
-    <div className="px-4 md:px-12 lg:px-20 flex flex-col md:flex-row gap-2 md:gap-3 lg:gap-4">
+    <div className="px-4 md:px-12 lg:px-20 flex flex-col md:flex-row gap-2 md:gap-3 lg:gap-4 pt-8">
 
        <MyList {...list}/>
         <div className="bg-blue-400 md:w-fit p-3 md:p-4 lg:p-6 max-h-[60vh]"> 
