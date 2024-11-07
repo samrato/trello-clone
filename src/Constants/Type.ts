@@ -3,7 +3,7 @@
 type items={
    Name:string
    Likes:number
-   Comments:[string]
+   Comments:string[]
 }
 
 
