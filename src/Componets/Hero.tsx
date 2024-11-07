@@ -27,7 +27,9 @@ function Hero() {
     <div className="px-4 md:px-12 lg:px-20 flex flex-col md:flex-row">
 
         <div className="flex-1 bg-white text-gray-800 flex-col"> hello</div>
-        <div className="bg-blue-400">Juma  the stresser guy</div>
+        <div className="bg-blue-400"> 
+            <p><span>+</span>Add another List</p>
+        </div>
     
     </div>
   )
